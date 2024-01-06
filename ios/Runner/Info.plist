@@ -41,6 +41,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
@@ -48,6 +50,8 @@
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Main</string>
 	<key>NSMicrophoneUsageDescription</key>
+	<string>Main</string>
+	<key>NSSpeechSynthesizerUsageDescription</key>
 	<string>Main</string>
 </dict>
 </plist>

@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rivaan.allen.allen">
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.BLUETOOTH"/>
@@ -9,8 +10,7 @@
             <action android:name="android.speech.RecognitionService" />
         </intent>
     </queries>
-
-    <application
+   <application
         android:label="allen"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
